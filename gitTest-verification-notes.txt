@@ -1,0 +1,20 @@
+LAB 01 – SAMPLE CLI / VERIFICATION NOTES
+==========================================
+
+PC0 command prompt:
+    ping 192.168.1.20
+
+Switch CLI:
+    enable
+    show interfaces status
+    show mac address-table
+    show vlan brief
+    show running-config
+
+Expected observations:
+- Fa0/1 and Fa0/2 should be connected/up after the links come up.
+- The MAC address table should learn the source MAC addresses of PC0 and PC1.
+- Both access ports should normally belong to VLAN 1 in the default configuration.
+
+Note:
+This file is a study reference, not a Packet Tracer configuration import file.
